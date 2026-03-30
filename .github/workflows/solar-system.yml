@@ -19,7 +19,7 @@ jobs:
         runs-on: ubuntu-latest
         container:        #added
           image: 'node:20' #added
-        steps:
+        
         steps:
         - name: Checkout Repository
           uses: actions/checkout@v4
